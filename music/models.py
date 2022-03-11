@@ -6,5 +6,5 @@ class Music(models.Model):
     artist = models.CharField(max_length=250)
     album = models.CharField(max_length=250)
     release_date= models.DateField()
-    genre = models.CharField
+    genre = models.CharField(max_length=250)
 
